@@ -6,6 +6,27 @@ export const StyledForm = styled.form`
   text-align: center;
 `;
 
+export const FieldWrapper = styled.div`
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  align-items: center;
+  margin-bottom: 20px;
+`;
+
+export const StyledLabel = styled.label`
+  font-size: 18px;
+`;
+
+export const StyledInput = styled.input`
+  width: 400px;
+  padding: 10px 20px;
+  border: 2px solid grey;
+`;
+
+export const ErrorMessage = styled.span`
+  color: red;
+`;
+
 export const Button = styled.button`
   border-radius: 5px;
   padding: 5px 10px;
