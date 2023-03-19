@@ -7,8 +7,8 @@ export const StyledForm = styled.form`
 `;
 
 export const FieldWrapper = styled.div`
-  display: grid;
-  grid-template-columns: 0.4fr 1fr;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
 `;
@@ -24,7 +24,8 @@ export const StyledInput = styled.input`
 `;
 
 export const ErrorMessage = styled.span`
-  color: red;
+  font-weight: bold;
+  color: #800;
 `;
 
 export const Button = styled.button`
