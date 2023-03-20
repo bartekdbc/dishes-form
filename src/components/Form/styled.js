@@ -23,6 +23,10 @@ export const StyledForm = styled.div`
   @media (max-width: ${({ theme }) => theme.breakpoint.medium}px) {
     padding: 20px 30px;
   }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.small}px) {
+    padding: 10px 20px;
+  }
 `;
 
 export const Title = styled.h1`

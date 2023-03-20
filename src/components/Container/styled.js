@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,5 +9,6 @@ export const Container = styled.div`
 
   @media (max-width: ${({ theme }) => theme.breakpoint.small}px) {
     display: grid;
+    margin: 20px;
   }
 `;
