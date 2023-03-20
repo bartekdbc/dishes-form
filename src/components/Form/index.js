@@ -47,7 +47,7 @@ const DishForm = () => {
   return (
     <Wrapper>
       <StyledForm>
-        <Title>Dish App 🍕</Title>
+        <Title>Dish Form 🍕</Title>
         <ExtraTitle>
           Let's get started! Please fill up the form in order to prepare your
           dish.
