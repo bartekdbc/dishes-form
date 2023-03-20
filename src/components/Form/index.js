@@ -15,7 +15,7 @@ import {
   Title,
   Wrapper,
 } from "./styled";
-import Dish from "../../dish-image.png";
+import Dish from "../../assets/dish-image.png";
 import submitDish from "./submitDish";
 
 const DishForm = () => {
@@ -241,8 +241,6 @@ const DishForm = () => {
                   Clear
                 </Button>
               </ButtonsWrapper>
-              {/* 
-              <pre>{JSON.stringify(values, undefined, 2)}</pre> */}
             </form>
           )}
         />
