@@ -22,7 +22,7 @@ const DishForm = () => {
   const required = (value) => (value ? undefined : "Required");
 
   const requiredNameLength = (value) => {
-    if (value.length < 3) {
+    if (value.trim().length < 3) {
       return "Name should be at least 3 characters.";
     } else return undefined;
   };
