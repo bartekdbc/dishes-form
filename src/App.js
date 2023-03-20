@@ -1,6 +1,5 @@
-import "./App.css";
 import { Container } from "./components/Container/styled";
-import DishForm from "./components/Form/Form";
+import DishForm from "./components/Form";
 
 function App() {
   return (
