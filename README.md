@@ -8,7 +8,7 @@ Dish Form is a simple form project made to enable uploading information about sp
 
 - **Dish name**,
 - **Preparation time**,
-- **Dish type** (pizza, soup or sandwich to choose),
+- **Dish type** (pizza🍕, soup🍜 or sandwich🥪 to choose),
 - Details depending on dish type selected, i.e. **number of slices**, **diameter**, **spiciness scale**, **number of bread slices**.
 
 As recommended technology was Redux Form, I have decided to look through the documentation and I found out that the most suitable solution these days for building forms is to run the project in 🏁React Final Form. That is why I followed the recommendations of Redux Form author and created this Dish Form in the above technology.
