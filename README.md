@@ -1,4 +1,4 @@
-# Dish Form 🍕
+# Dish Form
 
 ![Headline](./headline.png)
 
@@ -21,7 +21,7 @@ You can find a demo version [here](https://bartekdbc.github.io/dishes-form/).
 
 ## Preview
 
-![Preview](/)
+![Preview](./Preview.gif)
 
 ## Setting Up
 
@@ -45,8 +45,7 @@ To use the form locally, follow these steps:
 - React Final Form
 - Styled Components
 - ThemeProvider
-- Async/await
-- format-string-by-pattern
+- Format-string-by-pattern
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
