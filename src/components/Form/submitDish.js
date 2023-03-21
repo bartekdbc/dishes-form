@@ -13,8 +13,7 @@ const submitDish = async (values) => {
     if (!response.ok) {
       throw new Error(response.statusText);
     }
-    const data = await response.json();
-    console.log(data);
+    await response.json();
   } catch (error) {
     console.error("Something bad happened!", error);
   }
