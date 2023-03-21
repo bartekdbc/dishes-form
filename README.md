@@ -45,6 +45,7 @@ To use the form locally, follow these steps:
 - React Final Form
 - Styled Components
 - ThemeProvider
+- Media Queries
 - Format-string-by-pattern
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
